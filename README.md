@@ -58,6 +58,19 @@ Step 7: Finalize and Export
 
 
 # Output
-
+https://1drv.ms/w/c/20037A70A8B8BA0B/IQDTi45NjEDmQpjsPyfqzNiJAXOlgQhkdDYy7zNwiR9VUZw?e=NSmLyv
 
 # Result
+Result
+
+The comparative analysis shows that:
+
+ChatGPT is best suited for educational purposes, beginner-to-intermediate learners, assignment preparation, and simplified explanations.
+Gemini is best suited for advanced technical study, research work, and in-depth exploration of AI concepts.
+Both models demonstrated strong performance in Accuracy, Creativity, Reasoning, and Knowledge Coverage.
+Gemini achieved slightly higher overall technical performance, while ChatGPT provided a better learning experience through clearer presentation and accessibility.
+
+Final Recommendation:
+For engineering students preparing reports and understanding concepts quickly, ChatGPT is recommended due to its clarity and structured explanations. For deeper technical research and advanced AI studies, Gemini is recommended because of its detailed analysis and extensive technical content.
+
+Overall Outcome: Both ChatGPT and Gemini are powerful Generative AI tools, and their combined use can provide a balanced learning experience that offers both conceptual understanding and technical depth.
