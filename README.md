@@ -10,6 +10,7 @@ Develop a comprehensive report for the following exercises:
 1.1 Identify the goal of the report (e.g., educational, research, tech overview)
 1.2 Set the target audience level (e.g., students, professionals)
 1.3 Draft a list of core topics to cover
+________________________________________
 Step 2: Create Report Skeleton/Structure
 2.1 Title Page
 2.2 Abstract or Executive Summary
