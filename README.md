@@ -6,6 +6,10 @@ Develop a comprehensive report for the following exercises:
 3.	Generative AI applications.
 4.	Generative AI impact of scaling in LLMs.
 
+# AI Tools Used:
+* ChatGPT
+* Gemini 
+
 # Algorithm: 
 Step 1: Define Scope and Objectives
 1.1 Identify the goal of the report (e.g., educational, research, tech overview)
@@ -57,10 +61,42 @@ Step 7: Finalize and Export
 7.2 Export as PDF or desired format
 7.3 Prepare a brief presentation if required (optional)
 
+# Experiment:
 
+# Report on the fundamentals of Gen AI and Large Language Models (LLMs) 
 
-# Output
-https://1drv.ms/w/c/20037A70A8B8BA0B/IQDTi45NjEDmQpjsPyfqzNiJAXOlgQhkdDYy7zNwiR9VUZw?e=NSmLyv
+# Abstract: 
+
+Generative Artificial Intelligence (Generative AI) is a branch of AI that creates new content such as text, images, audio, video, and code by learning patterns from existing data. Recent advances in Large Language Models (LLMs) have transformed the field by enabling machines to understand and generate human-like language. This report explores the foundational concepts of Generative AI, its architectures, applications, and the impact of scaling in LLMs. 
+
+# Introduction: 
+
+Artificial Intelligence (AI) refers to computer systems that perform tasks requiring human intelligence, such as learning, reasoning, and decision-making. Machine Learning (ML) is a subset of AI that enables systems to learn from data. 
+
+Generative AI is a specialized area of AI focused on generating new content rather than simply analysing or classifying existing data. Modern Generative AI systems are widely used in chatbots, content creation, software development, healthcare, and education. 
+
+# 1. Explain the foundational concepts of Generative AI.
+# Prompt:
+Explain the foundational concepts of Generative AI, including its definition, key technologies, working principles, and applications.
+
+# 2. Focusing on Generative AI architectures. (like transformers).
+# Prompt:
+Explain the Transformer architecture used in Generative AI and describe its key components and advantages.
+
+# 3. Generative AI architecture and its applications.
+# Prompt:
+Describe the architecture of Generative AI systems and discuss their major applications across different domains.
+
+# 4. Generative AI impact of scaling in LLMs.
+# Prompt:
+Explain how scaling model size, training data, and computational resources affects the performance of Large Language Models.
+
+## 5. Explain about LLM and how it is built. 
+## Prompt:
+Explain Large Language Models (LLMs) and describe the process involved in building and training them.
+
+# Output:
+
 
 # Result
 Result
