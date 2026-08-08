@@ -97,9 +97,11 @@ Explain Large Language Models (LLMs) and describe the process involved in buildi
 
 # Output:
 ## ChatGPT:
-## Foundational Concepts of Generative AI:
+## 1. Foundational Concepts of Generative AI:
 
 Generative Artificial Intelligence (Generative AI) is a branch of Artificial Intelligence that focuses on creating new content such as text, images, audio, video, and software code. Unlike traditional AI systems that perform tasks such as classification, prediction, or decision-making, Generative AI learns patterns from existing data and generates new content that resembles the original data.
+<img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/faf046ab-fa6f-4900-840a-ab20f9382ab2" />
+
 
 The foundation of Generative AI is based on Machine Learning (ML) and Deep Learning (DL). Machine Learning enables computers to learn from data and improve performance without explicit programming. Deep Learning uses artificial neural networks with multiple layers to process large amounts of information and identify complex patterns.
 
@@ -112,6 +114,7 @@ Neural Networks: Computational models inspired by the structure of the human bra
 Parameters: Internal values learned during training that help the model make predictions.
 Probability Distribution: Mathematical representation of likely outcomes.
 Generative Models: Models designed specifically to create new content.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/486e1eea-16d1-4cf7-95e7-39bb9182396f" />
 
 Popular generative models include Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), Diffusion Models, and Large Language Models (LLMs).
 
@@ -121,6 +124,79 @@ Conclusion:
 
 Generative AI enables machines to generate realistic and useful content by learning patterns from data, making it one of the most transformative technologies in modern computing.
 
+## Gemini:
+## 1. Foundational Concepts of Generative AI:
+
+Generative Artificial Intelligence (GenAI) refers to a class of machine learning models designed to generate new content such as text, images, audio, video, and code by learning the statistical patterns and distributions present in training data.
+
+Core Mathematical and Operational Principles:
+Discriminative vs. Generative Modeling:
+
+Discriminative Models learn the conditional probability distribution P(Y∣X) to classify or label input data. For example, they determine whether an image contains a cat or a dog.
+
+Generative Models learn the joint probability distribution P(X,Y) or data distribution P(X). This enables them to estimate sample probabilities and generate entirely new data instances.
+<img width="2048" height="1639" alt="image" src="https://github.com/user-attachments/assets/e67f6837-b3e9-4c14-87eb-e9566940a3f4" />
+
+Latent Space Representations:
+
+Generative models transform high-dimensional input data, such as images or text, into a lower-dimensional continuous vector space called the latent space. Similar concepts are located close to each other in this space, enabling interpolation and manipulation of generated content.
+
+Autoregressive Generation vs. Parallel Synthesis:
+
+Autoregressive Generation creates output sequentially, where each new token depends on previously generated tokens.
+
+Parallel Synthesis generates complete output structures simultaneously or through iterative denoising processes, as used in Diffusion Models.
+<img width="738" height="415" alt="image" src="https://github.com/user-attachments/assets/fc1d662b-e71d-41ce-8356-548982916f55" />
+
+Self-Supervised Learning:
+
+Generative AI models are typically trained using self-supervised learning. Instead of requiring manually labeled datasets, models learn by predicting masked or future portions of large unlabeled datasets, such as predicting the next word in a sentence.
+<img width="2048" height="1619" alt="image" src="https://github.com/user-attachments/assets/82573819-0427-4f83-af71-764980742d9f" />
+
+Conclusion:
+
+Generative AI combines probabilistic modeling, latent representations, and self-supervised learning to generate realistic and meaningful content across multiple modalities.
+
+## ChatGPT:
+## 2. Focusing on Generative AI architectures. (like transformers).
+
+Transformer architecture is the foundation of most modern Generative AI systems. It was introduced in 2017 through the research paper Attention Is All You Need and has since become the dominant architecture for language and content generation tasks.
+
+Unlike traditional Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks, transformers process data in parallel, allowing faster training and improved performance.
+
+The major components of a Transformer architecture are:
+
+Encoder:
+
+The encoder receives input data and converts it into meaningful representations. It analyzes the relationships among words and captures contextual information.
+
+Decoder:
+
+The decoder uses information from the encoder to generate output sequences one element at a time.
+
+Self-Attention Mechanism:
+
+Self-attention allows the model to determine which words are most important when understanding a sentence. It helps the model capture relationships between words regardless of their position.
+
+Multi-Head Attention:
+
+Instead of using a single attention mechanism, transformers use multiple attention heads. Each head focuses on different aspects of the input, improving understanding.
+
+Positional Encoding:
+
+Since transformers process all words simultaneously, positional encoding provides information about the order of words in a sentence.
+
+Advantages of Transformers:
+Faster training through parallel processing.
+Better understanding of long-range dependencies.
+Improved scalability for large datasets.
+Higher accuracy in language understanding and generation.
+
+Popular transformer-based models include GPT, BERT, Gemini, Claude, and LLaMA.
+
+Conclusion:
+
+Transformer architecture revolutionized Generative AI by enabling efficient learning, better context understanding, and large-scale model development.
 
 # Result
 Result
