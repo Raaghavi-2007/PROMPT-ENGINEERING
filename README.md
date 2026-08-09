@@ -100,6 +100,7 @@ Explain Large Language Models (LLMs) and describe the process involved in buildi
 ## 1. Foundational Concepts of Generative AI:
 
 Generative Artificial Intelligence (Generative AI) is a branch of Artificial Intelligence that focuses on creating new content such as text, images, audio, video, and software code. Unlike traditional AI systems that perform tasks such as classification, prediction, or decision-making, Generative AI learns patterns from existing data and generates new content that resembles the original data.
+
 <img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/faf046ab-fa6f-4900-840a-ab20f9382ab2" />
 
 
@@ -118,6 +119,7 @@ Parameters: Internal values learned during training that help the model make pre
 Probability Distribution: Mathematical representation of likely outcomes.
 
 Generative Models: Models designed specifically to create new content.
+
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/486e1eea-16d1-4cf7-95e7-39bb9182396f" />
 
@@ -141,6 +143,7 @@ Discriminative vs. Generative Modeling:
 Discriminative Models learn the conditional probability distribution P(Y∣X) to classify or label input data. For example, they determine whether an image contains a cat or a dog.
 
 Generative Models learn the joint probability distribution P(X,Y) or data distribution P(X). This enables them to estimate sample probabilities and generate entirely new data instances.
+
 <img width="2048" height="1639" alt="image" src="https://github.com/user-attachments/assets/e67f6837-b3e9-4c14-87eb-e9566940a3f4" />
 
 Latent Space Representations:
@@ -152,11 +155,13 @@ Autoregressive Generation vs. Parallel Synthesis:
 Autoregressive Generation creates output sequentially, where each new token depends on previously generated tokens.
 
 Parallel Synthesis generates complete output structures simultaneously or through iterative denoising processes, as used in Diffusion Models.
+
 <img width="738" height="415" alt="image" src="https://github.com/user-attachments/assets/fc1d662b-e71d-41ce-8356-548982916f55" />
 
 Self-Supervised Learning:
 
 Generative AI models are typically trained using self-supervised learning. Instead of requiring manually labeled datasets, models learn by predicting masked or future portions of large unlabeled datasets, such as predicting the next word in a sentence.
+
 <img width="2048" height="1619" alt="image" src="https://github.com/user-attachments/assets/82573819-0427-4f83-af71-764980742d9f" />
 
 Conclusion:
@@ -217,11 +222,13 @@ Major Model Paradigms:
 Transformers:
 
 Transformers process sequence data in parallel using self-attention mechanisms rather than recurrent loops.
+
 <img width="2048" height="1151" alt="image" src="https://github.com/user-attachments/assets/bb49618d-5562-4b67-9d07-a91dd75a63ed" />
 
 Diffusion Models:
 
 Diffusion models learn to reverse a noise process iteratively, allowing them to generate high-quality images, audio, and video from random noise.
+
 <img width="506" height="197" alt="image" src="https://github.com/user-attachments/assets/a90a77c8-d921-45a3-89b4-74726c336836" />
 
 Generative Adversarial Networks (GANs):
@@ -233,11 +240,13 @@ Generator: Creates data instances.
 Discriminator: Evaluates data authenticity.
 
 The generator creates data while the discriminator evaluates its authenticity.
+
 <img width="442" height="226" alt="image" src="https://github.com/user-attachments/assets/bd2e597d-7cbb-48f3-969b-0a715f5ec7f8" />
 
 Variational Autoencoders (VAEs):
 
 VAEs compress data into a probabilistic latent distribution and reconstruct samples back into the original data space.
+
 <img width="2048" height="1422" alt="image" src="https://github.com/user-attachments/assets/e2b85171-3c68-45e2-b933-9e08c77ece44" />
 
 Transformer Architecture:
@@ -251,6 +260,7 @@ The Transformer projects three learned representations:
 Query (Q): What the current token is searching for.
 Key (K): Information offered by each token.
 Value (V): Actual contextual information transferred.
+
 <img width="306" height="326" alt="image" src="https://github.com/user-attachments/assets/4a8e7ba0-19da-450b-9895-94926a713b54" />
 
 Multi-Head Attention:
@@ -262,6 +272,7 @@ Positional Encoding:
 Since attention processes all tokens simultaneously, positional encoding provides sequence order information using sinusoidal functions or Rotary Position Embeddings (RoPE).
 
 Architectural Variants:
+
 <img width="431" height="711" alt="image" src="https://github.com/user-attachments/assets/304c8dc4-c397-436d-b332-2b09f3854c74" />
 
 Encoder-Only Models:
@@ -355,6 +366,7 @@ Research assistance
 Conclusion:
 
 The architecture of Generative AI combines data processing, model training, and deployment to create intelligent systems capable of generating valuable content across multiple industries.
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/399ba5d6-122b-4428-b353-30244cfc776b" />
 
 ## Gemini:
@@ -425,6 +437,7 @@ Conversational Chatbots
 Automated Reasoning
 
 Example Models: GPT, LLaMA
+
 <img width="431" height="711" alt="image" src="https://github.com/user-attachments/assets/39ed1245-2c67-4f6c-b541-35923038eb40" />
 
 2. Diffusion Models:
@@ -439,6 +452,7 @@ Video Synthesis
 Digital Content Creation
 
 Example Models: Stable Diffusion, DALL·E
+
 <img width="448" height="223" alt="image" src="https://github.com/user-attachments/assets/db18e028-744b-49b4-9a3f-839406a146fc" />
 
 3. Encoder-Decoder Transformer:
@@ -453,6 +467,7 @@ Text-to-SQL Conversion
 Question Answering
 
 Example Models: T5, BART
+
 <img width="2048" height="1151" alt="image" src="https://github.com/user-attachments/assets/6a7b39a8-7fae-4374-82ad-d5f12b38d5dd" />
 
 4. Variational Autoencoders (VAEs):
@@ -467,6 +482,7 @@ Speech Processing
 Data Reconstruction
 
 Example Models: Variational Autoencoder-based architectures
+
 <img width="783" height="391" alt="image" src="https://github.com/user-attachments/assets/46a3145e-a3c8-415f-a019-fe620b8e1088" />
 
 5. Generative Adversarial Networks (GANs):
@@ -481,6 +497,7 @@ Deepfake Generation
 Video Filters and Image Enhancement
 
 Example Models: StyleGAN, CycleGAN
+
 <img width="2048" height="1422" alt="image" src="https://github.com/user-attachments/assets/3e1058e7-766e-4428-bcd7-f3b7ec41d563" />
 
 Conclusion:
@@ -530,6 +547,7 @@ Modern LLMs such as GPT, Gemini, Claude, and LLaMA contain billions of parameter
 Conclusion:
 
 Scaling has significantly improved the capabilities of LLMs, enabling them to perform increasingly sophisticated tasks, although it also introduces technical and environmental challenges.
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d95a3b4c-168a-4084-8604-cb26c312ce69" />
 
 ## Gemini:
@@ -548,6 +566,7 @@ Research by Kaplan et al. and Hoffmann et al. demonstrated that model loss decre
 The Chinchilla Scaling Law states that optimal performance is achieved when training data scales proportionally with model parameters, approximately:
 
 D ≈ 20 × N tokens
+
 <img width="844" height="363" alt="image" src="https://github.com/user-attachments/assets/78ba98c8-5a40-4a1e-9b6a-f8d5b36cab72" />
 
 Emergent Abilities:
@@ -557,16 +576,19 @@ As models reach tens of billions of parameters, new capabilities emerge.
 In-Context Learning:
 
 Models can perform tasks based solely on instructions without additional training.
+
 <img width="2048" height="1556" alt="image" src="https://github.com/user-attachments/assets/ab0a7cd8-f17a-46dd-90d6-83343eeb07be" />
 
 Chain-of-Thought Reasoning:
 
 Models solve complex logical and mathematical problems through intermediate reasoning steps.
+
 <img width="2048" height="1152" alt="image" src="https://github.com/user-attachments/assets/9b5a0147-cbb2-4235-9e25-b9cf4e182044" />
 
 Code Generation and Tool Use:
 
 Models can generate API calls, parse structured formats, and debug code.
+
 <img width="2048" height="1576" alt="image" src="https://github.com/user-attachments/assets/d1830e7b-38ff-42f6-b7f2-fbdf4aa2b961" />
 
 Scaling Challenges:
@@ -574,6 +596,7 @@ Scaling Challenges:
 Attention bottlenecks due to quadratic complexity.
 Limited availability of high-quality training data.
 High inference and deployment costs.
+
 <img width="677" height="437" alt="image" src="https://github.com/user-attachments/assets/732233c0-e70e-49fa-b8ad-5918a6e26976" />
 
 Conclusion:
@@ -630,12 +653,14 @@ Models are updated periodically with new data and training techniques to improve
 Conclusion:
 
 LLMs are built through a systematic process involving data collection, training, fine-tuning, evaluation, and deployment. They form the foundation of many modern AI applications and continue to advance rapidly with improvements in computing power and machine learning techniques.
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/14b1aba3-3d84-425b-b551-b3a04100957f" />
 
 ## Gemini:
 ## 5. Explain about LLM and how it is built:
 
 A Large Language Model (LLM) is a deep neural network, typically based on a decoder-only Transformer architecture, containing billions or trillions of parameters trained on massive text datasets.
+
 <img width="2048" height="1358" alt="image" src="https://github.com/user-attachments/assets/03037676-9351-47a7-abb6-d7575e797a30" />
 
 Four-Stage LLM Development Pipeline:
@@ -643,6 +668,7 @@ Four-Stage LLM Development Pipeline:
 Stage 1: Data Curation and Preprocessing
 
 Large-scale text data is collected from web pages, books, code repositories, and research papers. The data is cleaned by removing duplicates, low-quality content, and sensitive information. Tokenization converts text into numerical tokens using techniques such as Byte Pair Encoding (BPE).
+
 <img width="653" height="470" alt="image" src="https://github.com/user-attachments/assets/468f00c3-0534-4e3b-a7af-6b4693382f89" />
 
 Stage 2: Pretraining (Foundation Training)
@@ -652,6 +678,7 @@ The model is initialized with random parameters and trained using self-supervise
 Objective: Predict the next token in a sequence.
 
 Result: A base model with strong language understanding and broad knowledge.
+
 <img width="566" height="542" alt="image" src="https://github.com/user-attachments/assets/f6969d54-d7c0-4f44-a50e-903a0e38d490" />
 
 Stage 3: Supervised Fine-Tuning (SFT)
@@ -659,6 +686,7 @@ Stage 3: Supervised Fine-Tuning (SFT)
 The pretrained model is trained on carefully curated instruction-response datasets.
 
 Objective: Convert the base model into an instruction-following assistant capable of answering questions, summarizing text, and generating code.
+
 <img width="739" height="415" alt="image" src="https://github.com/user-attachments/assets/1b39bd72-d97a-4fd3-af2b-d6db184411e1" />
 
 Stage 4: Post-Training Alignment (RLHF / DPO)
@@ -670,6 +698,7 @@ Uses human preference rankings and reward models to optimize responses.
 
 DPO (Direct Preference Optimization):
 Directly adjusts model parameters using preferred and non-preferred response pairs.
+
 <img width="831" height="369" alt="image" src="https://github.com/user-attachments/assets/16152118-dfe5-497f-8985-7be7e20d18b2" />
 
 Conclusion:
