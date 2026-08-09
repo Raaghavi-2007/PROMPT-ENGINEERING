@@ -299,7 +299,7 @@ Example: T5
 
 Used for translation and summarization tasks.
 
-Conclusion
+Conclusion:
 
 The Transformer architecture has become the foundation of modern Generative AI because of its scalability, efficiency, and ability to model long-range dependencies.
 
