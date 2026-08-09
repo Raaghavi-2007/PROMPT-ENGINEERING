@@ -135,6 +135,7 @@ Generative AI enables machines to generate realistic and useful content by learn
 Generative Artificial Intelligence (GenAI) refers to a class of machine learning models designed to generate new content such as text, images, audio, video, and code by learning the statistical patterns and distributions present in training data.
 
 Core Mathematical and Operational Principles:
+
 Discriminative vs. Generative Modeling:
 
 Discriminative Models learn the conditional probability distribution P(Y∣X) to classify or label input data. For example, they determine whether an image contains a cat or a dog.
