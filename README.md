@@ -109,11 +109,16 @@ Generative AI models are trained on massive datasets. During training, the model
 
 Important concepts in Generative AI include:
 
-Training Data: The data used to teach the model.
+Training Data: The data used to teach the model
+
 Neural Networks: Computational models inspired by the structure of the human brain.
+
 Parameters: Internal values learned during training that help the model make predictions.
+
 Probability Distribution: Mathematical representation of likely outcomes.
+
 Generative Models: Models designed specifically to create new content.
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/486e1eea-16d1-4cf7-95e7-39bb9182396f" />
 
 Popular generative models include Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), Diffusion Models, and Large Language Models (LLMs).
